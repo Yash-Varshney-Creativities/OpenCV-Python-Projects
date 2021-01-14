@@ -1,11 +1,8 @@
 import cv2
 import numpy as np
-import time
 
 capture_video = cv2.VideoCapture(0)
 
-# give the camera to warm up
-time.sleep(1)
 count = 0
 background = 0
 
